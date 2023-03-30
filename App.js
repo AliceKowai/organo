@@ -8,6 +8,7 @@ import {
 import Cesta from './src/pages/Cesta';
 import mock from './src/mocks/cesta';
 import * as SplashScreen from 'expo-splash-screen';
+import Lista from './src/pages/componentes/lista';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
